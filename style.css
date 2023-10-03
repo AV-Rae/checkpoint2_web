@@ -1,0 +1,52 @@
+.navbar-button {
+    background-color: #D9563F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #9C3E2D;
+}
+
+.image-container{
+    padding-left: 125px;
+}
+
+@media (min-width: 801px) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        display: block;
+        margin: 10px auto;
+        text-align: right;
+    }
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: gray;
+}
